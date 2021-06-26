@@ -1,0 +1,80 @@
+/* config-header bar */
+.page-header {
+    background: #43a047;
+    box-shadow: 1px 3px 0 1px #a5d6a7;
+}
+
+.page-header h2 {
+    border-bottom-color: #004d40;
+}
+
+.page-header .breadcrumbs a, .page-header .breadcrumbs span {
+    color: white;
+}
+
+.page-header .breadcrumbs li {
+    color: white;
+}
+
+/* config toggle sidebar en mobile */
+.header .toggle-sidebar-left {
+    background: #26a69a;
+} 
+
+/* config left bar */
+.sidebar-left {
+    background: #43a047;
+    box-shadow : -5px 0 0 #1b5e20 inset;
+}
+
+/* police sidebar-lef color */
+ul.nav-main li a {
+    color: white;
+}
+
+/* hover menu */
+ul.nav-main li a:hover {
+    background: #1b5e20;
+    color: white;
+}
+
+/* toogle sidebar left */
+
+.sidebar-left .sidebar-header .sidebar-toggle {
+    background: #1b5e20;
+}
+
+/* parent select sidebar-left */
+ul.nav-main > li.nav-expanded > a {
+    background: #1b5e20;
+}
+
+/* children select sidebar-left */
+ul.nav-main li .nav-children {
+    background: #1b5e20;
+}
+
+/* ul.nav-main li .nav-expanded a:hover{
+    background-color: cyan;
+} */
+
+/* hover children select */
+ul.nav-main li .nav-children li a:hover, ul.nav-main li .nav-childre li a:focus {
+    background: #1b5e20;
+}
+
+/* scroll child menu */
+ul.nav-main li.nav-parent > a::after{
+    color: white;
+}
+
+.inner-menu a.menu-item.active {
+	background: #1b5e20;
+}
+
+@media only screen and (min-width: 768px) {
+    html.sidebar-left-collapsed.fixed .sidebar-left .nano {
+        background: #43a047;
+        box-shadow: -5px 0 0 #1b5e20 inset;
+    }
+}
